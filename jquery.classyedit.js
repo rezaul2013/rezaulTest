@@ -31,7 +31,7 @@
         f.after(g);
         e = a("[classyeditor='" + b + "'] [contenteditable]");
         !1 == c.animation && (a("[classyeditor='" + b + "'] .toolbar").show(), a("[classyeditor='" + b + "'] .editor").css("marginTop", "-6px"));
-        a("[classyeditor='" + b + "'] .editor").focus(function() {
+       /* a("[classyeditor='" + b + "'] .editor").focus(function() {
             if (c.animation == true) {
                 debugme("open toolbar: " + h);
                 clearTimeout(h);
@@ -50,7 +50,7 @@
         });
         a("[classyeditor='" + b + "'] .html_editor").focus(function() {
             a(this).parent().find(".toolbar").slideDown("fast")
-        });
+        });*/
         a("[classyeditor='" + b + "'] [contenteditable]").focus(function() {
             e = this
         });
