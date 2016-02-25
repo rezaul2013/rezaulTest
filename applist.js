@@ -24,7 +24,7 @@ var applicationDataSet = [
     "Technology Stack":"ColdFusion/Oracle",
     "Technical Monitor":"Shukeshia Herndon",
     "Access Type":"Web",
-    "Description":"ASM Weapon Systems Database (WSD)\tUsed to by staff in Acquisition and Sourcing Management (ASM) to help assess the performance and risks of major weapon system programs.<ul><li><b>item 1</b></li><li>item 2</li><li><a href="http://www.gao.gov">item 3</a></li></ul>",
+    "Description":"ASM Weapon Systems Database (WSD)<br/>Used to by staff in Acquisition and Sourcing Management (ASM) to help assess the performance and risks of major weapon system programs.<ul><li><b>item 1</b></li><li>item 2</li><li><a href='http://www.gao.gov'>item 3</a></li></ul>",
     "Url":"",
     "KnownIssues":[  "Intermittent crash",
             "Does not work in Safari"]
