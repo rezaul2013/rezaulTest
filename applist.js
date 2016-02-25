@@ -1,4 +1,8 @@
-   var applicationDataSet = [
+/////////////////////////////////////////////////////////
+//// Hardcodes json data containing Application List ////
+/////////////////////////////////////////////////////////
+
+var applicationDataSet = [
   {
     "Application Name":"Accomplishment Reporting System (ARS)",
     "Support Team":"Task 7 ",
@@ -155,7 +159,7 @@
     "Technology Stack":"Jdk7/8, Tomcat 7/8, ORACLE",
     "Technical Monitor":"Eeron Holder",
     "Access Type":"Web",
-    "Description":"The Executive Vacancies application is a public application for searching a database of position vacancies reported to GAO by federal departments and agencies.?ÿ\n",
+    "Description":"The Executive Vacancies application is a public application for searching a database of position vacancies reported to GAO by federal departments and agencies.?Ã¿\n",
     "Url":"",
     "KnownIssues":[]
   },
@@ -1108,4 +1112,3 @@
     "KnownIssues":[]
   }
 ];
-
