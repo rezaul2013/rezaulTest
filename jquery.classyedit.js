@@ -6,7 +6,6 @@
  * Written by Marius Stanciu - Sergiu <marius@picozu.net>
  * Licensed under the GPL Version 3 license.
  * Version 1.1.0
- * test
  */
 
 (function(a) {
