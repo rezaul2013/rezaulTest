@@ -38,12 +38,14 @@ var applicationDataSet = [
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
-    "ISSG POC":"","Technology Stack":"LAMP, Oracle",
+    "ISSG POC":"",
+    "Technology Stack":"LAMP, Oracle",
     "Technical Monitor":"Radut Tanasescu",
     "Access Type":"Web",
     "Description":"Bibliographic Data Entry (BDE) is used to create new document records and lead users through the process of indexing, cataloging, and abstracting of products that must be added to Document Database. ",
     "Url":"",
-    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},"KnownIssues":[ "CSS Problem",
+    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
+    "KnownIssues":[ "CSS Problem",
             "Does not work in Safari"]
   },
   {
@@ -51,12 +53,14 @@ var applicationDataSet = [
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
-    "ISSG POC":"","Technology Stack":"ColdFusion/Oracle",
+    "ISSG POC":"",
+    "Technology Stack":"ColdFusion/Oracle",
     "Technical Monitor":"Rebecca Johnson",
     "Access Type":"Web",
     "Description":"The Budget Tracking System is an application built for Knowledge Service's Budget and Operations group. It captures and tracks the real-time status of budget accounts for GAO procurement of products and services from various vendors. It also includes a budget management component where an initial fiscal year budget is set up and purchases made throughout the year are debited against the fiscal year budget.",
     "Url":"",
-    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},"KnownIssues":[ "IE Browser Settings Problem",
+    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
+    "KnownIssues":[ "IE Browser Settings Problem",
             "Does not work in Safari"]
   },
   {
