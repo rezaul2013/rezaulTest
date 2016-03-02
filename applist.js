@@ -68,84 +68,98 @@ var applicationDataSet = [
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
-    "ISSG POC":"","Technology Stack":"ColdFusion/Oracle",
+    "ISSG POC":"",
+    "Technology Stack":"ColdFusion/Oracle",
     "Technical Monitor":"Eeron Holder",
     "Access Type":"Web",
     "Description":"The intranet-based system enables the capture and secure sharing of performance appraisal information for GAO staff that is ultimately used to determine an individual's compensation. Used by all GAO Employees",
     "Url":"",
-    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},"KnownIssues":[]
+    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
+    "KnownIssues":[]
   },
   {
     "Application Name":"Congressional Hearing System (CHS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
-    "ISSG POC":"","Technology Stack":"ColdFusion/Oracle",
+    "ISSG POC":"",
+    "Technology Stack":"ColdFusion/Oracle",
     "Technical Monitor":"Shukeshia Herndon",
     "Access Type":"Web",
     "Description":"CHS is used to add/update information required to produce a notice of hearing for congressional testimonies. CHS 3.7.7 was upgraded to correct system bugs",
     "Url":"",
-    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},"KnownIssues":[]
+    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
+    "KnownIssues":[]
   },
   {
     "Application Name":"Demand Dissemination Report (DDR/distrpt)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
+    "ISSG POC":"",
     "Technology Stack":"Jdk7/8, Tomcat 7/8, Oracle",
     "Technical Monitor":"Edward Ballard",
     "Access Type":"Web",
     "Description":"The purpose of this application is to provide the statistics on the dissemination of products listed as Demand Distribution.  ",
     "Url":"",
-    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},"KnownIssues":[]
+    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
+    "KnownIssues":[]
   },
   {
     "Application Name":"Derestriction Applications (derestrict, OCR De-Restriction)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
-    "ISSG POC":"","Technology Stack":"LAMP, Oracle",
+    "ISSG POC":"",
+    "Technology Stack":"LAMP, Oracle",
     "Technical Monitor":"Radut Tanasescu",
     "Access Type":"Web",
     "Description":"Used by the Office of Congressional Relations to indicate which restricted documents have been released for public distributions. The information is used to update Doc_db, and the Demand Distribution databases. ",
     "Url":"",
-    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},"KnownIssues":[]
+    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
+    "KnownIssues":[]
   },
   {
     "Application Name":"Distribution Workflow (DW)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
-    "ISSG POC":"","Technology Stack":"Jdk7/8, Tomcat 7/8, Oracle",
+    "ISSG POC":"",
+    "Technology Stack":"Jdk7/8, Tomcat 7/8, Oracle",
     "Technical Monitor":"Edward Ballard",
     "Access Type":"Web",
     "Description":"This application has 2 pieces. The first is used to print labels either for a list of users received through the Form115 application or for a list of individuals from the mailing list. The second piece is for HCO to create labels for personnel.  Replaces ATF File Generation Program and Form 50 Labels.",
     "Url":"",
-    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},"KnownIssues":[]
+    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
+    "KnownIssues":[]
   },
   {
     "Application Name":"Engagement Reporting System (ERS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
-    "ISSG POC":"","Technology Stack":"Jdk7/8, Tomcat 7/8, ORACLE",
+    "ISSG POC":"",
+    "Technology Stack":"Jdk7/8, Tomcat 7/8, ORACLE",
     "Technical Monitor":"Faiza Baluch",
     "Access Type":"Web",
     "Description":"A reporting system that displays engagement information collected from a variety of system sources and organized by engagement management, product and oversight activities. \n",
     "Url":"",
-    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},"KnownIssues":[]
+    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
+    "KnownIssues":[]
   },
   {
     "Application Name":"Engagement Reporting System XML (ERSX)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
-    "ISSG POC":"","Technology Stack":"Jdk7/8, Tomcat 7/8, ORACLE",
+    "ISSG POC":"",
+    "Technology Stack":"Jdk7/8, Tomcat 7/8, ORACLE",
     "Technical Monitor":"Faiza Baluch",
     "Access Type":"Web",
     "Description":"",
     "Url":"",
-    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},"KnownIssues":[]
+    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
+    "KnownIssues":[]
   },
   {
     "Application Name":"Engagement Results Phase (ERP)",
