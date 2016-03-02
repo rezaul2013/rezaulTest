@@ -23,12 +23,14 @@ var applicationDataSet = [
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
-    "ISSG POC":"","Technology Stack":"ColdFusion/Oracle",
+    "ISSG POC":"Marshanda Pyle",
+    "Technology Stack":"ColdFusion/Oracle",
     "Technical Monitor":"Shukeshia Herndon",
     "Access Type":"Web",
     "Description":"ASM Weapon Systems Database (WSD)<br/>Used to by staff in Acquisition and Sourcing Management (ASM) to help assess the performance and risks of major weapon system programs.<ul><li><b>item 1</b></li><li>item 2</li><li><a href='http://www.gao.gov'>item 3</a></li></ul>",
-    "Url":"",
-    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},"KnownIssues":[  "Intermittent crash",
+    "Url":"https://wsd.gao.gov/WSD/gao_login.cfm",
+    "Planned Outage" :  {"startDateTime":"March 20, 2016 6:00 PM", "endDateTime":"March 21, 2016 5:00 PM"},
+    "KnownIssues":[  "Intermittent crash",
             "Does not work in Safari"]
   },
   {
@@ -566,12 +568,14 @@ var applicationDataSet = [
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
-    "ISSG POC":"","Technology Stack":"ColdFusion/Oracle",
+    "ISSG POC":"Rahmon Burton",
+    "Technology Stack":"ColdFusion/Oracle",
     "Technical Monitor":"Edward Ballard",
     "Access Type":"Web",
     "Description":"A web-based application that allows staff to self-certify training and view their training transcript, including CPE/CLE credits, and progress toward CPE/CLE requirements. TIS also contains various management reports and system administrator functions to maintain the application.<ul><li> Provides unit managers and HCMs with up-to-date training data for all staff members, as well as training budget data.<\/li><li> Planned Cold Fusion version of TIRS to replace current Access-based version (and include self-certification functionality?).<\/li><\/ul>",
-    "Url":"",
-    "Planned Outage" :  {"startDateTime":"", "endDateTime":""},"KnownIssues":[]
+    "Url":"http://cfpro3.gao.gov/TIS/Login/frmLogin.cfm",
+    "Planned Outage" :  {"startDateTime":"March 6, 2016 6:00 PM", "endDateTime":"March 9, 2016 5:00 PM"},
+    "KnownIssues":['IE Settings Reset Problem']
   },
   {
     "Application Name":"Transit Benefits",
