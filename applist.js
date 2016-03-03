@@ -4,7 +4,7 @@
 
 var applicationDataSet = [
   {
-    "Application Name":"Accomplishment Reporting System (ARS)",
+    "AppUID": "ARS", "Application Name":"Accomplishment Reporting System (ARS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -15,11 +15,11 @@ var applicationDataSet = [
     "Description":"Used to collect, update, and retrieve information about accomplishments based on GAO audit products and other GAO work; similar to the form66 program , Export report. ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[ "IE Browser Settings Problem",
+    "SoftwareType" : "Custom","ManagementGroup" : "Human Capital Management","KnownIssues":[ "IE Browser Settings Problem",
             "Does not work in Safari"]
   },
   {
-    "Application Name":"ASM Weapons System Database (WSD)",
+    "AppUID": "WSD", "Application Name":"ASM Weapons System Database (WSD)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -30,11 +30,11 @@ var applicationDataSet = [
     "Description":"ASM Weapon Systems Database (WSD)<br/>Used to by staff in Acquisition and Sourcing Management (ASM) to help assess the performance and risks of major weapon system programs.<ul><li><b>item 1</b></li><li>item 2</li><li><a href='http://www.gao.gov'>item 3</a></li></ul>",
     "Url":"https://wsd.gao.gov/WSD/gao_login.cfm",
     "Planned Outage" :  {"startDateTime":"March 20, 2016 6:00 PM", "endDateTime":"March 21, 2016 5:00 PM"},
-    "KnownIssues":[  "Intermittent crash",
+    "SoftwareType" : "Custom","ManagementGroup" : "Human Capital Management","KnownIssues":[  "Intermittent crash",
             "Does not work in Safari"]
   },
   {
-    "Application Name":"Bibliographic Data Entry (BDE)",
+    "AppUID": "BDE", "Application Name":"Bibliographic Data Entry (BDE)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -45,11 +45,11 @@ var applicationDataSet = [
     "Description":"Bibliographic Data Entry (BDE) is used to create new document records and lead users through the process of indexing, cataloging, and abstracting of products that must be added to Document Database. ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[ "CSS Problem",
+    "SoftwareType" : "Custom","ManagementGroup" : "Human Capital Management","KnownIssues":[ "CSS Problem",
             "Does not work in Safari"]
   },
   {
-    "Application Name":"Budget Tracking System (BTS)",
+    "AppUID": "BTS", "Application Name":"Budget Tracking System (BTS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -60,11 +60,11 @@ var applicationDataSet = [
     "Description":"The Budget Tracking System is an application built for Knowledge Service's Budget and Operations group. It captures and tracks the real-time status of budget accounts for GAO procurement of products and services from various vendors. It also includes a budget management component where an initial fiscal year budget is set up and purchases made throughout the year are debited against the fiscal year budget.",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[ "IE Browser Settings Problem",
+    "SoftwareType" : "Custom","ManagementGroup" : "Human Capital Management","KnownIssues":[ "IE Browser Settings Problem",
             "Does not work in Safari"]
   },
   {
-    "Application Name":"Competency-Based Performance System (CBPS)",
+    "AppUID": "CBPS", "Application Name":"Competency-Based Performance System (CBPS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -75,10 +75,10 @@ var applicationDataSet = [
     "Description":"The intranet-based system enables the capture and secure sharing of performance appraisal information for GAO staff that is ultimately used to determine an individual's compensation. Used by all GAO Employees",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Human Capital Management","KnownIssues":[]
   },
   {
-    "Application Name":"Congressional Hearing System (CHS)",
+    "AppUID": "CHS", "Application Name":"Congressional Hearing System (CHS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -89,10 +89,10 @@ var applicationDataSet = [
     "Description":"CHS is used to add/update information required to produce a notice of hearing for congressional testimonies. CHS 3.7.7 was upgraded to correct system bugs",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Human Capital Management","KnownIssues":[]
   },
   {
-    "Application Name":"Demand Dissemination Report (DDR/distrpt)",
+    "AppUID": "", "Application Name":"Demand Dissemination Report (DDR/distrpt)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -103,10 +103,10 @@ var applicationDataSet = [
     "Description":"The purpose of this application is to provide the statistics on the dissemination of products listed as Demand Distribution.  ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Human Capital Management","KnownIssues":[]
   },
   {
-    "Application Name":"Derestriction Applications (derestrict, OCR De-Restriction)",
+    "AppUID": "", "Application Name":"Derestriction Applications (derestrict, OCR De-Restriction)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -117,10 +117,10 @@ var applicationDataSet = [
     "Description":"Used by the Office of Congressional Relations to indicate which restricted documents have been released for public distributions. The information is used to update Doc_db, and the Demand Distribution databases. ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Human Capital Management","KnownIssues":[]
   },
   {
-    "Application Name":"Distribution Workflow (DW)",
+    "AppUID": "", "Application Name":"Distribution Workflow (DW)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -131,10 +131,10 @@ var applicationDataSet = [
     "Description":"This application has 2 pieces. The first is used to print labels either for a list of users received through the Form115 application or for a list of individuals from the mailing list. The second piece is for HCO to create labels for personnel.  Replaces ATF File Generation Program and Form 50 Labels.",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Human Capital Management","KnownIssues":[]
   },
   {
-    "Application Name":"Engagement Reporting System (ERS)",
+    "AppUID": "", "Application Name":"Engagement Reporting System (ERS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -145,10 +145,10 @@ var applicationDataSet = [
     "Description":"A reporting system that displays engagement information collected from a variety of system sources and organized by engagement management, product and oversight activities. \n",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Human Capital Management","KnownIssues":[]
   },
   {
-    "Application Name":"Engagement Reporting System XML (ERSX)",
+    "AppUID": "", "Application Name":"Engagement Reporting System XML (ERSX)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -159,10 +159,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Human Capital Management","KnownIssues":[]
   },
   {
-    "Application Name":"Engagement Results Phase (ERP)",
+    "AppUID": "", "Application Name":"Engagement Results Phase (ERP)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -173,10 +173,10 @@ var applicationDataSet = [
     "Description":"The purpose of Engagement Results Phase (ERP) is to provide a single-sign-on and unified interface for applications pertinent to the results phase of the engagement process. Applications included in ERP now are: GAO Publication Database (PubDB), Planned Product Distribution (Form115), PMTS Customer Search, Recommendation Followup Application (Form66) and Accomplishment Report System (ARS).\n",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Human Capital Management","KnownIssues":[]
   },
   {
-    "Application Name":"Executive Vacancy System-Web (EVS)",
+    "AppUID": "", "Application Name":"Executive Vacancy System-Web (EVS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -187,10 +187,10 @@ var applicationDataSet = [
     "Description":"The Executive Vacancies application is a public application for searching a database of position vacancies reported to GAO by federal departments and agencies.?ÿ\n",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Human Capital Management","KnownIssues":[]
   },
   {
-    "Application Name":"Federal Rules Tracking System (FedRules)",
+    "AppUID": "", "Application Name":"Federal Rules Tracking System (FedRules)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -201,10 +201,10 @@ var applicationDataSet = [
     "Description":"The Federal Rules application is a public application for searching a database of major and non-major rules products. \n",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Human Capital Management","KnownIssues":[]
   },
   {
-    "Application Name":"Financial Audit System (FAS)",
+    "AppUID": "", "Application Name":"Financial Audit System (FAS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -215,10 +215,10 @@ var applicationDataSet = [
     "Description":"A web-enabled system to support Financial Management and Assurance (FMA) team's workflow, and provides capabilities to establish and plan financial audits, manage these projects, support audit fieldwork analysis and results, and develop the audit report. The system supports the capture of information about organizations under audit (entities) and their financial information, financial management systems, and audit work performed by non-GAO auditors. ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Human Capital Management","KnownIssues":[]
   },
   {
-    "Application Name":"Financial Disclosure - Review",
+    "AppUID": "", "Application Name":"Financial Disclosure - Review",
     "Support Team":"Task 7 ",
     "Support POC Name":"Curtis Washington",
     "Support POC Email":"WashingtonC@gao.gov",
@@ -229,10 +229,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Financial Disclosure System",
+    "AppUID": "", "Application Name":"Financial Disclosure System",
     "Support Team":"Task 7 ",
     "Support POC Name":"Curtis Washington",
     "Support POC Email":"WashingtonC@gao.gov",
@@ -243,10 +243,10 @@ var applicationDataSet = [
     "Description":"Developed by ARM",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Fraud Hotline Reporting System (FraudNet)",
+    "AppUID": "", "Application Name":"Fraud Hotline Reporting System (FraudNet)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -257,10 +257,10 @@ var applicationDataSet = [
     "Description":"The purpose of FraudNet is to provide the US Government with a location where its citizens, government employees and officials can register complaints about specific or general conditions they believe are not in the best interest of the U.S. Government.   ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"GAO Publication Database Search Utility (PubDB)",
+    "AppUID": "", "Application Name":"GAO Publication Database Search Utility (PubDB)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -271,10 +271,10 @@ var applicationDataSet = [
     "Description":"This application is used for general purpose searching of Doc_db to retrieve all types of products (except for accomplishment reports) including restricted, unrestricted, and limited official use reports, testimonies, CG decisions, and other written products. \n",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"GC Reports",
+    "AppUID": "", "Application Name":"GC Reports",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -285,10 +285,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"GEAR Application Profiler (app_profiler)",
+    "AppUID": "", "Application Name":"GEAR Application Profiler (app_profiler)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -299,10 +299,10 @@ var applicationDataSet = [
     "Description":"Developer tool for keeping track of all application data (replacement for appdb).  Used for different initiatives like password and ED-AD changes.",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"General Counsel Tracking System (GCTrack)",
+    "AppUID": "", "Application Name":"General Counsel Tracking System (GCTrack)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -313,10 +313,10 @@ var applicationDataSet = [
     "Description":"A system used for tracking legal research and legal cases as they relate to GAO audits and bid protests. ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"GPO Monthly Report",
+    "AppUID": "", "Application Name":"GPO Monthly Report",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -327,10 +327,10 @@ var applicationDataSet = [
     "Description":"The script is used to generate a list of all \"historic documents scanned during the month\". In the context of this script \"Historic Documents\" references any document issued before October 31 2008.",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"IHSF Scripts (Cron)",
+    "AppUID": "", "Application Name":"IHSF Scripts (Cron)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -341,10 +341,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"IMPD Unit Picker",
+    "AppUID": "", "Application Name":"IMPD Unit Picker",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -355,10 +355,10 @@ var applicationDataSet = [
     "Description":"The IMPD Picker was designed to be a pluggable search tool with a single look and feel. Meaning our goal was to provide a single interface that could search any defined datasource",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Database RDBMS","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Interim Database Maintenance (IDBM)",
+    "AppUID": "", "Application Name":"Interim Database Maintenance (IDBM)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -369,10 +369,10 @@ var applicationDataSet = [
     "Description":"The Interim Database Maintenance program (IDBM) is used to update or correct document records in DOC_DB. Users login to the application, search for a document record, and then access the rest of the application for updates before submitting the document. ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Job Initiation System / Job Information System (JIS)",
+    "AppUID": "", "Application Name":"Job Initiation System / Job Information System (JIS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -383,10 +383,10 @@ var applicationDataSet = [
     "Description":"An engagement management application that captures basic information about an engagement, heavily focused on the Acceptance, Initiation and Commitment phases of an engagement",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Locator-Admin",
+    "AppUID": "", "Application Name":"Locator-Admin",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -397,10 +397,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Logger Viewer (log_view)",
+    "AppUID": "", "Application Name":"Logger Viewer (log_view)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -411,10 +411,10 @@ var applicationDataSet = [
     "Description":"Development Application the looks at log files which applications store in the log5j database schema. View logs created by other apps in every environment (dev, test, QA and prod)",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Lookup Table Maintenance (LTM)",
+    "AppUID": "", "Application Name":"Lookup Table Maintenance (LTM)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -425,10 +425,10 @@ var applicationDataSet = [
     "Description":"Lookup table maintenance is used to update information in the Namesval (names of federal officials), Orgval (organizational information), and Stratgoalval (strategic goal/objective information) tables within the Doc_db, and Form66 databases.  ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Machine Aided Indexing (MAI) - Command Line",
+    "AppUID": "", "Application Name":"Machine Aided Indexing (MAI) - Command Line",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -439,10 +439,10 @@ var applicationDataSet = [
     "Description":"MAI server is installed on lnxpro2a, when we run the Thesaurus Master or MAI Rule Builder we point to MAI server on lnxpro2a. Used to help applications like BDE pull key words out of documents. ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"MATS Discrepancies Report",
+    "AppUID": "", "Application Name":"MATS Discrepancies Report",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -453,10 +453,10 @@ var applicationDataSet = [
     "Description":"Report to be the replacement for the Ihsf_script's Mats_Refresh email (http://uniter/portal/index.php/Applications:Ihsf_scripts#Mats_Refresh). Compares fields that should be the same between DOC_DB and MATS and shows when they are not.",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"My Locator",
+    "AppUID": "", "Application Name":"My Locator",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -467,10 +467,10 @@ var applicationDataSet = [
     "Description":"This is an internal web-based application providing staff and contractors with the ability to provide personal contact information for purposes of official business and emergencies ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Product Planned Distribution System (Form 115)",
+    "AppUID": "", "Application Name":"Product Planned Distribution System (Form 115)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -481,10 +481,10 @@ var applicationDataSet = [
     "Description":"Form115 is an internal web application that is used by GAO personnel to distribute GAO reports to congressional committees, internal GAO recipients and others.  It enables the distribution department to enter, view, and print report distribution information. When product are Exported, they are distributed via DW.",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Rapid Application Development (RAD/Liferay)",
+    "AppUID": "", "Application Name":"Rapid Application Development (RAD/Liferay)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Abdul Khan",
     "Support POC Email":"KhanAm@gao.gov",
@@ -495,10 +495,10 @@ var applicationDataSet = [
     "Description":"ISTS Replacement for QPL Survey applications",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Recommendation Follow-Up Export (rfrpt)",
+    "AppUID": "", "Application Name":"Recommendation Follow-Up Export (rfrpt)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -509,10 +509,10 @@ var applicationDataSet = [
     "Description":"One of Form66 reports.",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Recommendation Follow-Up System (Form 66)",
+    "AppUID": "", "Application Name":"Recommendation Follow-Up System (Form 66)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -523,10 +523,10 @@ var applicationDataSet = [
     "Description":"This application is used to update recommendation status and other related information for products with at least one open recommendation. Following review/approval, the data are migrated to Doc_db and Docdblite. The Form66 application limits access based on LDAP permissions. ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Record Deletion Utility (recdel)",
+    "AppUID": "", "Application Name":"Record Deletion Utility (recdel)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -537,10 +537,10 @@ var applicationDataSet = [
     "Description":"The Record Deletion Utility program is designed to delete all records associated with a specific document from the DOC_DB, FORM66, or DOCDBLITE databases. Users are required to search on either an accession number or report number, and chose which database.  AKA: MLMS Record Deletion Utility ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Code Repository","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Salaries and Benefits",
+    "AppUID": "", "Application Name":"Salaries and Benefits",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -551,10 +551,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Scholl Report (contrib_report)",
+    "AppUID": "", "Application Name":"Scholl Report (contrib_report)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -565,10 +565,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Staffing Information System (SIS)",
+    "AppUID": "", "Application Name":"Staffing Information System (SIS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -579,10 +579,10 @@ var applicationDataSet = [
     "Description":"The Staffing Information System (SIS) is a GAO intranet-based application that helps facilitate the staffing process for engagements and small projects within a team.",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Student Loan Repayment System",
+    "AppUID": "", "Application Name":"Student Loan Repayment System",
     "Support Team":"Task 7 ",
     "Support POC Name":"Curtis Washington",
     "Support POC Email":"WashingtonC@gao.gov",
@@ -593,10 +593,10 @@ var applicationDataSet = [
     "Description":"ARM Transitioned. MS Access. HCO is using a web-based application developed by ARM as well as an Access data base to support the Student Loan Repayment Program (SLRP). The web-based SLRP application (probably QPL-based) allows GAO staff to apply for the student loan repayment benefit, and team and HCO managers to review and approve SLRP applications. HCO uses the Access DB to generate reports for the Executive Committee listing the staff approved for SLRP. Based on this report and the approved amount budgeted for the program, the Executive Committee approves a per staff repayment amount (currently a bit more than $1 Million per year). HCO staff then manually key loan repayment entries into the NFC Special Payment System which transmits the payment to FMS for payment.",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Supply Property Inventory System (SPIN)",
+    "AppUID": "", "Application Name":"Supply Property Inventory System (SPIN)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -607,10 +607,10 @@ var applicationDataSet = [
     "Description":"The Supply Inventory System tracks GAO supply inventory, including total inventory, supplies ordered and received, and supplies issued to specific locations within the building. The user has the ability to create supply inventory records, edit the records, receive new inventory, and distribute the inventory to the distribution sites. ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Telework Application",
+    "AppUID": "", "Application Name":"Telework Application",
     "Support Team":"Task 7 ",
     "Support POC Name":"Abdul Khan",
     "Support POC Email":"KhanAm@gao.gov",
@@ -621,10 +621,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Teragram",
+    "AppUID": "", "Application Name":"Teragram",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -635,10 +635,10 @@ var applicationDataSet = [
     "Description":"Several applications Purchased from Teragram for Taxonomy: catcon_server (does taxonomy on text), conversion_server (converts several document formats to text), summarizer_server (summarizes a body of text)\n",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Engagement/Work Management","KnownIssues":[]
   },
   {
-    "Application Name":"Teragram Web Service",
+    "AppUID": "", "Application Name":"Teragram Web Service",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -649,10 +649,10 @@ var applicationDataSet = [
     "Description":"The Taxonomy Web Service is a SOAP java web service made using Axis2 (http://ws.apache.org/axis2/)",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"Training Information System (TIS)",
+    "AppUID": "TIS", "Application Name":"Training Information System (TIS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -663,10 +663,10 @@ var applicationDataSet = [
     "Description":"A web-based application that allows staff to self-certify training and view their training transcript, including CPE/CLE credits, and progress toward CPE/CLE requirements. TIS also contains various management reports and system administrator functions to maintain the application.<ul><li> Provides unit managers and HCMs with up-to-date training data for all staff members, as well as training budget data.<\/li><li> Planned Cold Fusion version of TIRS to replace current Access-based version (and include self-certification functionality?).<\/li><\/ul>",
     "Url":"http://cfpro3.gao.gov/TIS/Login/frmLogin.cfm",
     "Planned Outage" :  {"startDateTime":"March 6, 2016 6:00 PM", "endDateTime":"March 9, 2016 5:00 PM"},
-    "KnownIssues":['IE Settings Reset Problem']
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":['IE Settings Reset Problem']
   },
   {
-    "Application Name":"Transit Benefits",
+    "AppUID": "", "Application Name":"Transit Benefits",
     "Support Team":"Task 7 ",
     "Support POC Name":"Abdul Khan",
     "Support POC Email":"KhanAm@gao.gov",
@@ -677,10 +677,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"United States Organization Table (USOrg-1.0)",
+    "AppUID": "", "Application Name":"United States Organization Table (USOrg-1.0)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -691,10 +691,10 @@ var applicationDataSet = [
     "Description":"Client Server Application that transforms selected federal leadership directories into a local data resource supporting engagement applications and product publishing and distribution.",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"United States Organization Table (USOrg-2.0)",
+    "AppUID": "", "Application Name":"United States Organization Table (USOrg-2.0)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -705,10 +705,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"United States Organization Table (USOrg-3.0)",
+    "AppUID": "", "Application Name":"United States Organization Table (USOrg-3.0)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -719,10 +719,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"USOrg Leadership Difference",
+    "AppUID": "", "Application Name":"USOrg Leadership Difference",
     "Support Team":"Task 7 ",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -733,10 +733,10 @@ var applicationDataSet = [
     "Description":"Used to compare Leadership data loads from iteration to iteration.  Request to change the application to compare from extract to production to eliminate missed orphan data. ",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"Usorg-webstart",
+    "AppUID": "", "Application Name":"Usorg-webstart",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -747,10 +747,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"WFP NFC Administration",
+    "AppUID": "", "Application Name":"WFP NFC Administration",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -761,10 +761,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"Workforce Planning",
+    "AppUID": "", "Application Name":"Workforce Planning",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -775,10 +775,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"Workforce Planning BI",
+    "AppUID": "", "Application Name":"Workforce Planning BI",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -789,10 +789,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"Counseling Services System (CSS)",
+    "AppUID": "", "Application Name":"Counseling Services System (CSS)",
     "Support Team":"EOSC",
     "Support POC Name":"Baron Darby",
     "Support POC Email":"DarbyB@gao.gov",
@@ -803,10 +803,10 @@ var applicationDataSet = [
     "Description":"3 DB apps: CSS-10-12-11DB, CS_ProviderLookupDB, CS_Programs DB",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"Discoverer -- Delphi Web Reports ",
+    "AppUID": "", "Application Name":"Discoverer -- Delphi Web Reports ",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -817,10 +817,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"Draft and 9 Series JC/TC Reporting",
+    "AppUID": "", "Application Name":"Draft and 9 Series JC/TC Reporting",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -831,10 +831,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"Employee Change Control System",
+    "AppUID": "", "Application Name":"Employee Change Control System",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -845,10 +845,10 @@ var applicationDataSet = [
     "Description":"Also known as NFC/Locator/Delphi change control",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Testing Software","ManagementGroup" : "Financial Services","KnownIssues":[]
   },
   {
-    "Application Name":"     - LocBiweek (Bi-Weekly Update)",
+    "AppUID": "", "Application Name":"     - LocBiweek (Bi-Weekly Update)",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -859,10 +859,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Testing Software","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Flux",
+    "AppUID": "", "Application Name":"Flux",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -873,10 +873,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Testing Software","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"FOCUS Reporting System (FOCUSRPT) ",
+    "AppUID": "", "Application Name":"FOCUS Reporting System (FOCUSRPT) ",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -887,10 +887,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Development Framework","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"GOAL4 - Key Effort Tracking System (G4DB)",
+    "AppUID": "", "Application Name":"GOAL4 - Key Effort Tracking System (G4DB)",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -901,10 +901,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Development Framework","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"HP Asset Manager",
+    "AppUID": "", "Application Name":"HP Asset Manager",
     "Support Team":"EOSC ",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -915,10 +915,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Development Framework","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Locator Application (DataSynq Daily Update)",
+    "AppUID": "", "Application Name":"Locator Application (DataSynq Daily Update)",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -929,10 +929,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Development Framework","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Mission Assignment Tracking System (MATS)",
+    "AppUID": "", "Application Name":"Mission Assignment Tracking System (MATS)",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -943,10 +943,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Development Framework","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"National Finance Center ",
+    "AppUID": "", "Application Name":"National Finance Center ",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -957,10 +957,10 @@ var applicationDataSet = [
     "Description":"Licensed for 4000 GAO Employees",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Development Framework","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"NFC Payroll Interface ",
+    "AppUID": "", "Application Name":"NFC Payroll Interface ",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -971,10 +971,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"PERS_LOC",
+    "AppUID": "", "Application Name":"PERS_LOC",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -985,10 +985,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"     - HQ Zip Code Update (Bi-Weekly Update)",
+    "AppUID": "", "Application Name":"     - HQ Zip Code Update (Bi-Weekly Update)",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -999,10 +999,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"     - NFCDown (Bi-Weekly Update)",
+    "AppUID": "", "Application Name":"     - NFCDown (Bi-Weekly Update)",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -1013,10 +1013,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"     - Active and Separated (Bi-Weekly Update)",
+    "AppUID": "", "Application Name":"     - Active and Separated (Bi-Weekly Update)",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -1027,10 +1027,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Other","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Retirement Calculator Application",
+    "AppUID": "", "Application Name":"Retirement Calculator Application",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -1041,10 +1041,10 @@ var applicationDataSet = [
     "Description":"Licensed for 4000 GAO Employees",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"SES/SL Appraisal ",
+    "AppUID": "", "Application Name":"SES/SL Appraisal ",
     "Support Team":"EOSC",
     "Support POC Name":"Baron Darby",
     "Support POC Email":"DarbyB@gao.gov",
@@ -1055,10 +1055,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Transit Database",
+    "AppUID": "", "Application Name":"Transit Database",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -1069,10 +1069,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"     - Bargining Unit Update",
+    "AppUID": "", "Application Name":"     - Bargining Unit Update",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -1083,10 +1083,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Web Time and Attendance (WebTA) ",
+    "AppUID": "", "Application Name":"Web Time and Attendance (WebTA) ",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -1097,10 +1097,10 @@ var applicationDataSet = [
     "Description":"Licensed for 3600 GAO employees. Additional 100 licenses approved on 7/17/09.",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"WebTa Daily Active Job Code Update",
+    "AppUID": "", "Application Name":"WebTa Daily Active Job Code Update",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -1111,10 +1111,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Work Management System (WMS)",
+    "AppUID": "", "Application Name":"Work Management System (WMS)",
     "Support Team":"EOSC",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -1125,10 +1125,10 @@ var applicationDataSet = [
     "Description":"Meant to be prototype to define ISTS ECM requirements",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Delphi Core Financial Management System ",
+    "AppUID": "", "Application Name":"Delphi Core Financial Management System ",
     "Support Team":"EOSC ",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -1139,10 +1139,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Treasury Enterprise Directory Service (TEDS)",
+    "AppUID": "", "Application Name":"Treasury Enterprise Directory Service (TEDS)",
     "Support Team":"EOSC ",
     "Support POC Name":"Dan Mills",
     "Support POC Email":"MillsD@gao.gov",
@@ -1153,10 +1153,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Audit Decision Support System (ADSS)",
+    "AppUID": "", "Application Name":"Audit Decision Support System (ADSS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -1167,10 +1167,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Davis-Bacon Claim System (DBCS)",
+    "AppUID": "", "Application Name":"Davis-Bacon Claim System (DBCS)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -1181,10 +1181,10 @@ var applicationDataSet = [
     "Description":"Claims tracking system",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"pti-tomcat plugin ",
+    "AppUID": "", "Application Name":"pti-tomcat plugin ",
     "Support Team":"Task 7 ",
     "Support POC Name":"Alex Roytman",
     "Support POC Email":"RoytmanA@alterasoft.net",
@@ -1195,10 +1195,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"File Information Tracking System (FITS)",
+    "AppUID": "", "Application Name":"File Information Tracking System (FITS)",
     "Support Team":"",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -1209,10 +1209,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Nightly Process",
+    "AppUID": "", "Application Name":"Nightly Process",
     "Support Team":"Task 7",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -1223,10 +1223,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Records Management Information System (RMIS)",
+    "AppUID": "", "Application Name":"Records Management Information System (RMIS)",
     "Support Team":"Task 7",
     "Support POC Name":"Michael Mou",
     "Support POC Email":"MouM@gao.gov",
@@ -1237,10 +1237,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Machine Aided Indexing (MAI) - Desktop",
+    "AppUID": "", "Application Name":"Machine Aided Indexing (MAI) - Desktop",
     "Support Team":"Task 7",
     "Support POC Name":"Dwayne McFarlane",
     "Support POC Email":"McFarlaneD@gao.gov",
@@ -1251,10 +1251,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"CPE Data Validation System (CDVS)",
+    "AppUID": "", "Application Name":"CPE Data Validation System (CDVS)",
     "Support Team":"Task 7",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -1265,10 +1265,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Notice of Visitation (NOV)",
+    "AppUID": "", "Application Name":"Notice of Visitation (NOV)",
     "Support Team":"Task 7 ",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -1279,10 +1279,10 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   },
   {
-    "Application Name":"Security Clearance Online Tracking System (SCOTS)",
+    "AppUID": "", "Application Name":"Security Clearance Online Tracking System (SCOTS)",
     "Support Team":"Task 7",
     "Support POC Name":"Sergei Lysenko",
     "Support POC Email":"LysenkoS@gao.gov",
@@ -1293,6 +1293,6 @@ var applicationDataSet = [
     "Description":"",
     "Url":"",
     "Planned Outage" :  {"startDateTime":"", "endDateTime":""},
-    "KnownIssues":[]
+    "SoftwareType" : "Custom","ManagementGroup" : "Technology Management","KnownIssues":[]
   }
 ];
